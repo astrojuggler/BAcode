@@ -13,7 +13,7 @@ mass of the black hole, mass accretion rate, inner radius and outer radius of th
 Those values represent the points explored during the random walk in the parameters space.
 
 HOW TO RUN THE PROGRAM: ./mcLog fileName.txt
-fileName.txt is the file downloaded from SED generator (see the example file S50014813.txt)
+where fileName.txt is the file downloaded from SED generator (see the example file S50014813.txt)
 
 
 -> ss.h defines the functions needed to compute the spectrum of the Shakura-Sunyaev model.
@@ -27,7 +27,7 @@ This means that if we want a set of independent samples, we have to throw away t
 and only take every n-th sample, for some value of n.
 -> autocorr.cpp finds the value of n and keeps only the uncorrelated data.
 
-//HOW TO RUN THE PROGRAM: ./autocorr fileName.txt
-//fileName.txt is the file downloaded from SED generator (see the example file S50014813.txt)
+HOW TO RUN THE PROGRAM: ./autocorr fileName.txt
+where fileName.txt is the file downloaded from SED generator (see the example file S50014813.txt)
 
 
